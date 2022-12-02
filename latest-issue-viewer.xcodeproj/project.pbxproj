@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		34738A97C01AD4DCB0D51214 /* Pods_latest_issue_viewer_latest_issue_viewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5423034DAB2FDBD1C6D9A9 /* Pods_latest_issue_viewer_latest_issue_viewerUITests.framework */; };
 		554247D9286A08DB002E3091 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554247D8286A08DB002E3091 /* UIColorHex.swift */; };
-		554F9A5C2934133A000B8349 /* SearchTutorial.html in Sources */ = {isa = PBXBuildFile; fileRef = 554F9A5B2934133A000B8349 /* SearchTutorial.html */; };
-		554F9A5D29341405000B8349 /* SearchTutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 554F9A5B2934133A000B8349 /* SearchTutorial.html */; };
 		554F9A652934230F000B8349 /* SearchTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9A632934230F000B8349 /* SearchTutorialViewController.swift */; };
 		554F9A662934230F000B8349 /* SearchTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554F9A642934230F000B8349 /* SearchTutorialViewController.xib */; };
 		554F9A692938EF94000B8349 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9A682938EF94000B8349 /* APIKey.swift */; };
@@ -40,6 +38,8 @@
 		55D9083428345ED10015586A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9082E28345ED10015586A /* TabBarViewController.swift */; };
 		55D9083828345F0D0015586A /* BookAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9083728345F0D0015586A /* BookAPI.swift */; };
 		55D9083A283582C70015586A /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D90839283582C70015586A /* Favorite.swift */; };
+		55E73B61293A2D6E00E85166 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B60293A2D6D00E85166 /* style.css */; };
+		55E73B63293A2DEC00E85166 /* SearchTutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B62293A2DEB00E85166 /* SearchTutorial.html */; };
 		883DB863FDCCE5766D620007 /* Pods_latest_issue_viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F142FEA329B9145D94BC64C6 /* Pods_latest_issue_viewer.framework */; };
 		BBE5B9FA6851CE0A23A4A4F6 /* Pods_latest_issue_viewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */; };
 /* End PBXBuildFile section */
@@ -67,7 +67,6 @@
 		55146C882848B9A900AFF028 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "../../../Downloads/realm-swift-10.27.0/13.4/Realm.xcframework"; sourceTree = "<group>"; };
 		55146C892848B9A900AFF028 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = "../../../Downloads/realm-swift-10.27.0/13.4/RealmSwift.xcframework"; sourceTree = "<group>"; };
 		554247D8286A08DB002E3091 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
-		554F9A5B2934133A000B8349 /* SearchTutorial.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = SearchTutorial.html; sourceTree = "<group>"; };
 		554F9A632934230F000B8349 /* SearchTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTutorialViewController.swift; sourceTree = "<group>"; };
 		554F9A642934230F000B8349 /* SearchTutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTutorialViewController.xib; sourceTree = "<group>"; };
 		554F9A682938EF94000B8349 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
@@ -103,6 +102,8 @@
 		55D9082E28345ED10015586A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		55D9083728345F0D0015586A /* BookAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAPI.swift; sourceTree = "<group>"; };
 		55D90839283582C70015586A /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		55E73B60293A2D6D00E85166 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		55E73B62293A2DEB00E85166 /* SearchTutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SearchTutorial.html; sourceTree = "<group>"; };
 		64CC20F3E17EC035FB288C66 /* Pods-latest-issue-viewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewerTests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewerTests/Pods-latest-issue-viewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EEBF503D843E2DC8AC3C3C2 /* Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewer-latest-issue-viewerUITests/Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_latest_issue_viewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +144,8 @@
 		554F9A5A293412CC000B8349 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				554F9A5B2934133A000B8349 /* SearchTutorial.html */,
+				55E73B62293A2DEB00E85166 /* SearchTutorial.html */,
+				55E73B60293A2D6D00E85166 /* style.css */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -439,11 +441,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554F9A5D29341405000B8349 /* SearchTutorial.html in Resources */,
+				55E73B61293A2D6E00E85166 /* style.css in Resources */,
 				5598E820281E740A008351DD /* LaunchScreen.storyboard in Resources */,
 				55D9082228345E8C0015586A /* FavoriteTableViewCell.xib in Resources */,
 				55D9082728345E8C0015586A /* SettingTableViewCell.xib in Resources */,
 				554F9A662934230F000B8349 /* SearchTutorialViewController.xib in Resources */,
+				55E73B63293A2DEC00E85166 /* SearchTutorial.html in Resources */,
 				5598E81D281E740A008351DD /* Assets.xcassets in Resources */,
 				5598E81B281E7401008351DD /* Main.storyboard in Resources */,
 				55D9082528345E8C0015586A /* BookTableViewCell.xib in Resources */,
@@ -576,7 +579,6 @@
 			files = (
 				55D9082428345E8C0015586A /* BookTableViewCell.swift in Sources */,
 				554F9A692938EF94000B8349 /* APIKey.swift in Sources */,
-				554F9A5C2934133A000B8349 /* SearchTutorial.html in Sources */,
 				55D9083828345F0D0015586A /* BookAPI.swift in Sources */,
 				55D9083A283582C70015586A /* Favorite.swift in Sources */,
 				55D9083028345ED10015586A /* SearchViewController.swift in Sources */,
