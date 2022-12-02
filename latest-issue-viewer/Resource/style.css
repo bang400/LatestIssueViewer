@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* -- font -- */
+/* .wf-sawarabigothic { font-family: "Sawarabi Gothic"; } */
+/**/
+
+/* -- header -- */
+/**/
+/**/
+header {
+    width: 100%;
+    padding: 15px 0;
+    font-family: "Sawarabi Gothic";
+    margin: 0 auto;
+    text-align: center;
+    background-color: #84c1ff;
+}
+
+header .headline {
+    font-size: 32px;
+}
+
+
+
+/* -- fotter -- */
+footer {    
+    /*footerの装飾*/
+    width: 100%;    
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #84c1ff;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+}
