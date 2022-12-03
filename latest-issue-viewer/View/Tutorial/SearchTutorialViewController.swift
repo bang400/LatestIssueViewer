@@ -27,9 +27,12 @@ class SearchTutorialViewController: UIViewController {
         tutorialWebView.loadFileURL(localHTMLUrl, allowingReadAccessTo: localHTMLUrl)
     }
     
+    // チュートリアルを閉じるボタンの装飾
     func buttonStyle(){
-        closeButton.backgroundColor = UIColor.green
-        closeButton.setTitleColor(UIColor.red, for: .normal)
+        closeButton.setTitle("チュートリアルを閉じる", for: .normal)
+        closeButton.backgroundColor = UIColor(hex: "00bfff") //背景色 00bfff[deepskyblue]
+        closeButton.tintColor = .white //文字色
+        closeButton.layer.cornerRadius = 25 //角
     }
     
     @IBAction func closeButtonAction(_ sender: Any) {

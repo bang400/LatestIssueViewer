@@ -34,7 +34,7 @@
                     <rect key="frame" x="0.0" y="695" width="390" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="OK"/>
+                    <buttonConfiguration key="configuration" style="plain" title=""/>
                     <connections>
                         <action selector="closeButtonAction:" destination="-1" eventType="touchUpInside" id="FbE-kL-yIM"/>
                     </connections>
