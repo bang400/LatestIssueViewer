@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 UNUserNotificationCenter.current().delegate = self
             }
         }
-        sleep(2)
+        sleep(UInt32(0.5))
         return true
     }
 
