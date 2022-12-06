@@ -1,15 +1,12 @@
 /* 2022/12/03 */
-* {
-    margin: 0;
-    padding: 0;
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/            
+    box-sizing: border-box;/* ←全て含めてmin-height:100vhに */    
 }
-/* -- font -- */
-/* .wf-sawarabigothic { font-family: "Sawarabi Gothic"; } */
-/**/
 
 /* -- header -- */
-/**/
-/**/
 header {
     width: 100%;
     padding: 15px 0;
@@ -20,16 +17,23 @@ header {
 }
 
 header .headline {
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .overview {
     font-size: 20px;
-    padding: 15px 0;
+    padding: 15px 0;    
+}
+
+.overview .text_tutrial{
     text-align: center;
 }
 
-.ViewController {
+.overview .text_overview{
+    text-align: left;
+}
+
+.appImage {
     height: 1000px;
     width: 500px;    
 }
@@ -37,17 +41,12 @@ header .headline {
 /* -- fotter -- */
 footer {    
     /*footerの装飾*/
-    width: 100%;    
+    width: 100%;        
+    background-color: #84c1ff;
     color: black;
     font-size: 20px;
     text-align: center;
-    padding: 30px 0;
-    background-color: #84c1ff;
+    padding: 30px 0;    
     position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
-}
-
-.wrapper{
-    min-height: 100vh;
-    position: relative;/*←相対位置*/
 }

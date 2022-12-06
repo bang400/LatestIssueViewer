@@ -30,9 +30,12 @@
                         <wkPreferences key="preferences"/>
                     </wkWebViewConfiguration>
                 </wkWebView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAj-9e-e7G">
-                    <rect key="frame" x="0.0" y="695" width="390" height="75"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAj-9e-e7G">
+                    <rect key="frame" x="5" y="415" width="24" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="di1-Qg-3vg"/>
+                        <constraint firstAttribute="width" secondItem="hAj-9e-e7G" secondAttribute="height" multiplier="12:7" id="hhw-VN-j9F"/>
+                    </constraints>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title=""/>
                     <connections>
@@ -42,6 +45,12 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hAj-9e-e7G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="CYR-hG-Diu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hAj-9e-e7G" secondAttribute="trailing" constant="5" id="NSM-kZ-3Nn"/>
+                <constraint firstItem="hAj-9e-e7G" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RdE-Vd-XXG"/>
+                <constraint firstItem="hAj-9e-e7G" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZaC-7e-U0E"/>
+            </constraints>
             <point key="canvasLocation" x="140" y="20.616113744075829"/>
         </view>
     </objects>

@@ -243,7 +243,10 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         
         // URLの結合
         let urlString:String = "\(fixedTitle)&applicationId=\(applicationId)"
-        print("文字列時のURL\(urlString)")
+        
+        // Debug時のURL確認
+        let testURLString:String = "\(fixedTitle)&applicationId=XXXX"
+        print("文字列時のURL\(testURLString)")
         // パーセントエンコーディング
         let encodeUrlString: String = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         // URLを生成
