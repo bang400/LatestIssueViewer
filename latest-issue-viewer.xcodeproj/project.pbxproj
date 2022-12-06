@@ -40,7 +40,7 @@
 		55D9083A283582C70015586A /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D90839283582C70015586A /* Favorite.swift */; };
 		55E73B61293A2D6E00E85166 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B60293A2D6D00E85166 /* style.css */; };
 		55E73B63293A2DEC00E85166 /* SearchTutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B62293A2DEB00E85166 /* SearchTutorial.html */; };
-		55E73B66293E2DB700E85166 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B65293E2DB700E85166 /* test.png */; };
+		55E73B6B293F096900E85166 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B6A293F096900E85166 /* test.png */; };
 		883DB863FDCCE5766D620007 /* Pods_latest_issue_viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F142FEA329B9145D94BC64C6 /* Pods_latest_issue_viewer.framework */; };
 		BBE5B9FA6851CE0A23A4A4F6 /* Pods_latest_issue_viewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */; };
 /* End PBXBuildFile section */
@@ -105,7 +105,7 @@
 		55D90839283582C70015586A /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		55E73B60293A2D6D00E85166 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		55E73B62293A2DEB00E85166 /* SearchTutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SearchTutorial.html; sourceTree = "<group>"; };
-		55E73B65293E2DB700E85166 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../../../../../../../Desktop/test.png; sourceTree = "<group>"; };
+		55E73B6A293F096900E85166 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		64CC20F3E17EC035FB288C66 /* Pods-latest-issue-viewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewerTests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewerTests/Pods-latest-issue-viewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EEBF503D843E2DC8AC3C3C2 /* Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewer-latest-issue-viewerUITests/Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_latest_issue_viewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -325,7 +325,7 @@
 		55E73B64293E2BC900E85166 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				55E73B65293E2DB700E85166 /* test.png */,
+				55E73B6A293F096900E85166 /* test.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -453,7 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E73B61293A2D6E00E85166 /* style.css in Resources */,
-				55E73B66293E2DB700E85166 /* test.png in Resources */,
+				55E73B6B293F096900E85166 /* test.png in Resources */,
 				5598E820281E740A008351DD /* LaunchScreen.storyboard in Resources */,
 				55D9082228345E8C0015586A /* FavoriteTableViewCell.xib in Resources */,
 				55D9082728345E8C0015586A /* SettingTableViewCell.xib in Resources */,

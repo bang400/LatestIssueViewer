@@ -29,6 +29,10 @@ header .headline {
     text-align: center;
 }
 
+.ViewController {
+    height: 1000px;
+    width: 500px;    
+}
 
 /* -- fotter -- */
 footer {    
