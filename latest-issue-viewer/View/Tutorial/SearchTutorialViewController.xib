@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21223" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21204"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,12 +19,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="searchTR" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7LI-fE-dMz">
-                    <rect key="frame" x="0.0" y="0.0" width="390" height="687"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7LI-fE-dMz">
+                    <rect key="frame" x="0.0" y="44" width="414" height="752.66666666666663"/>
                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <wkWebViewConfiguration key="configuration">
                         <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -31,11 +31,9 @@
                     </wkWebViewConfiguration>
                 </wkWebView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAj-9e-e7G">
-                    <rect key="frame" x="5" y="415" width="24" height="14"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="100" id="di1-Qg-3vg"/>
-                        <constraint firstAttribute="width" secondItem="hAj-9e-e7G" secondAttribute="height" multiplier="12:7" id="hhw-VN-j9F"/>
-                    </constraints>
+                    <rect key="frame" x="10" y="796.66666666666663" width="394" height="65.333333333333371"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <color key="tintColor" systemColor="systemYellowColor"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title=""/>
                     <connections>
@@ -46,17 +44,27 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="hAj-9e-e7G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="CYR-hG-Diu"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hAj-9e-e7G" secondAttribute="trailing" constant="5" id="NSM-kZ-3Nn"/>
-                <constraint firstItem="hAj-9e-e7G" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RdE-Vd-XXG"/>
-                <constraint firstItem="hAj-9e-e7G" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZaC-7e-U0E"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hAj-9e-e7G" secondAttribute="trailing" constant="10" id="8sG-Sy-gWq"/>
+                <constraint firstItem="hAj-9e-e7G" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.08" id="GH0-Op-ry0"/>
+                <constraint firstItem="hAj-9e-e7G" firstAttribute="top" secondItem="7LI-fE-dMz" secondAttribute="bottom" id="SWV-NL-aqO"/>
+                <constraint firstItem="7LI-fE-dMz" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.92" id="UmU-Tb-O7a"/>
+                <constraint firstItem="7LI-fE-dMz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ZSX-0a-7n3"/>
+                <constraint firstItem="7LI-fE-dMz" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bNd-7q-LbA"/>
+                <constraint firstItem="hAj-9e-e7G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="hQT-yb-RAr"/>
+                <constraint firstItem="7LI-fE-dMz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sKL-xe-0qM"/>
             </constraints>
             <point key="canvasLocation" x="140" y="20.616113744075829"/>
         </view>
     </objects>
     <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

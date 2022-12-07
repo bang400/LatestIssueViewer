@@ -32,7 +32,7 @@ class SearchTutorialViewController: UIViewController {
         closeButton.setTitle("チュートリアルを閉じる", for: .normal)
         closeButton.backgroundColor = UIColor(hex: "00bfff") //背景色 00bfff[deepskyblue]
         closeButton.tintColor = .white //文字色
-        closeButton.layer.cornerRadius = 25 //角
+        closeButton.layer.cornerRadius = 30 //角
     }
     
     @IBAction func closeButtonAction(_ sender: Any) {
