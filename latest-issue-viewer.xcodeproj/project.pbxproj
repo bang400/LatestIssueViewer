@@ -790,6 +790,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GCH87WV82X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "latest-issue-viewer/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Latest issue viewer";
@@ -806,6 +807,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = ProvisioningProfileLatestIssueViewer;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ProvisioningProfileLatestIssueViewer;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -822,6 +824,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GCH87WV82X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "latest-issue-viewer/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Latest issue viewer";
@@ -838,6 +841,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = ProvisioningProfileLatestIssueViewer;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ProvisioningProfileLatestIssueViewer;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -3,21 +3,42 @@
     min-height: 100vh;
     position: relative;/*←相対位置*/
     padding-bottom: 120px;/*←footerの高さ*/            
-    box-sizing: border-box;/* ←全て含めてmin-height:100vhに */    
+    box-sizing: border-box;/* ←全て含めてmin-height:100vhに */        
 }
 
 /* -- header -- */
 header {
     width: 100%;
     padding: 15px 0;
-    font-family: "Sawarabi Gothic";
-    margin: 0 auto;
-    text-align: center;
+    /* font-family: "Sawarabi Gothic"; */
+    font-family: 'Oswald', sans-serif;
+    /* margin: 0 auto;
+    text-align: center; */
     background-color: #84c1ff;
 }
 
-header .headline {
+/* header .headline {
     font-size: 38px;
+} */
+
+/* ロゴ関連 */
+.flex {
+    display: flex;    
+}
+
+.logo_image {
+    height: 100px;
+    width: 100px;   
+    padding-left: 15px;    
+}
+
+.flex .title_right {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+
+.flex .headline {    
+  font-size: 38px;
 }
 
 .overview {
@@ -26,16 +47,27 @@ header .headline {
 }
 
 .overview .text_tutrial{
-    text-align: center;
+    text-align: left;
+    font-family: "Sawarabi Gothic";
 }
 
 .overview .text_overview{
     text-align: left;
 }
+/* チュートリアル画像 */
+.image_tutorial {
+    text-align: center;
+}
+
+.image_tutorial_style{
+    padding: 15px 0;    
+}
 
 .appImage {
     height: 1000px;
     width: 500px;    
+    /* box-shadow: 10px 5px 5px black; */
+    border: thick double #84c1ff;
 }
 
 /* -- fotter -- */
