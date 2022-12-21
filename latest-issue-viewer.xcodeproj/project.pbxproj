@@ -41,6 +41,7 @@
 		55E73B61293A2D6E00E85166 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B60293A2D6D00E85166 /* style.css */; };
 		55E73B63293A2DEC00E85166 /* SearchTutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B62293A2DEB00E85166 /* SearchTutorial.html */; };
 		55E73B6B293F096900E85166 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B6A293F096900E85166 /* test.png */; };
+		55E73B6D29532A1200E85166 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B6C29532A1200E85166 /* Settings.bundle */; };
 		883DB863FDCCE5766D620007 /* Pods_latest_issue_viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F142FEA329B9145D94BC64C6 /* Pods_latest_issue_viewer.framework */; };
 		BBE5B9FA6851CE0A23A4A4F6 /* Pods_latest_issue_viewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */; };
 /* End PBXBuildFile section */
@@ -106,6 +107,7 @@
 		55E73B60293A2D6D00E85166 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		55E73B62293A2DEB00E85166 /* SearchTutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SearchTutorial.html; sourceTree = "<group>"; };
 		55E73B6A293F096900E85166 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		55E73B6C29532A1200E85166 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		64CC20F3E17EC035FB288C66 /* Pods-latest-issue-viewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewerTests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewerTests/Pods-latest-issue-viewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EEBF503D843E2DC8AC3C3C2 /* Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewer-latest-issue-viewerUITests/Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_latest_issue_viewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +184,7 @@
 		5598E807281E7401008351DD = {
 			isa = PBXGroup;
 			children = (
+				55E73B6C29532A1200E85166 /* Settings.bundle */,
 				5598E812281E7401008351DD /* latest-issue-viewer */,
 				5598E829281E740A008351DD /* latest-issue-viewerTests */,
 				5598E833281E740A008351DD /* latest-issue-viewerUITests */,
@@ -461,6 +464,7 @@
 				55E73B63293A2DEC00E85166 /* SearchTutorial.html in Resources */,
 				5598E81D281E740A008351DD /* Assets.xcassets in Resources */,
 				5598E81B281E7401008351DD /* Main.storyboard in Resources */,
+				55E73B6D29532A1200E85166 /* Settings.bundle in Resources */,
 				55D9082528345E8C0015586A /* BookTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
