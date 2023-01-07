@@ -16,10 +16,7 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
     @IBOutlet weak var clearButton: UIButton!
     @IBOutlet weak var calendarButton: UIButton!
     @IBOutlet weak var notApiDataText: UILabel!
-    // API検索をインスタンス変数に持つ
-    //    let getBookApi = GetBookAPI()
-    // let dammy_data = ["Apple","Banana","Grape","Pinapple"]
-    // let dammy_overViewdata = ["アイウエオかきくけこ","アイウエオかきくけこ","アイウエオかきくけこ","アイウエオかきくけこ"]
+    
     // ブックデータ
     var bookData = [BookObject]()
     var genreId:String?
@@ -48,10 +45,6 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         clearButton.backgroundColor = UIColor(hex: "d3d3d3") //背景色
         clearButton.tintColor = .black //文字色
         clearButton.layer.cornerRadius = 10 //角
-//        genreButton.layer.shadowOpacity = 0.7 //影
-//        genreButton.layer.shadowRadius = 3 // 不透明度
-//        genreButton.layer.shadowColor = UIColor.black.cgColor //影の色
-//        genreButton.layer.shadowOffset = CGSize(width: 5, height: 5) //影の方向 右,下
         
         // API検索結果を表示するテーブルの設定
         api_tableView.delegate = self
@@ -65,14 +58,16 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         view.addGestureRecognizer(tapGesture)
         tapGesture.cancelsTouchesInView = false
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         self.api_tableView.reloadData()
     }
+    
     // セルの数
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return bookData.count
-        //        return BookObjects.
     }
+    
     // セルに表示させる内容を設定
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "bookTableView", for: indexPath) as! BookTableViewCell
@@ -96,10 +91,12 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         cell.book_salesDate_textfield.text = bookDataItem.Item.salesDate
         return cell
     }
+    
     // セルの高さ
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
+    
     //　セルがタップされた時のアクション
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // セルがタップされた時にセルの選択を解除
@@ -107,6 +104,7 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         // 画面遷移する
         performSegue(withIdentifier: "toSearchDetailController", sender: indexPath.row)
     }
+    
     // 詳細ページへ値を受け渡すための準備
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toSearchDetailController" {
@@ -127,24 +125,10 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
                 detailVC.publisherValue = bookDataItem.Item.publisherName
                 // 発売日
                 detailVC.salesDateValue = bookDataItem.Item.salesDate
-                
             }
         }
     }
-    // キーボードを閉じる
-    //    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    ////        view.endEditing(true)
-    ////        search_form.resignFirstResponder()
-    //        view.endEditing(true)
-    //        print("タッチされたよ")
-    //    }
-    //    @IBAction func unwind(_ segue: UIStoryboardSegue) {
-    //        let from = segue.source as! SearchFilterViewController
-    //        self.genreId = from.genreId ?? "aaa"
-    //        print(self.genreId)
-    //        print(segue.identifier!)
-    //        search_form.placeholder = self.genreId
-    //    }
+    
     // フィルター解除ボタン
     @IBAction func clearButtonAction(_ sender: Any) {
         // 設定されているフィルターを解除する
@@ -153,10 +137,12 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         periodDate = nil
         search_form.placeholder = "本のタイトルを入力"
     }
+    
     // キーボードを閉じる
     @objc public func dismissKeyboard() {
         view.endEditing(true)
     }
+    
     // 検索フォームの処理
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         // キーボードを閉じる
@@ -212,17 +198,16 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
                 }
             }
         }
-    }    
+    }
+    
     // APIを取得する関数
     func getAPI(_ title:String , _ booksGenreId:String, _ startDate:String,_ periodDate:String){
-        print(title)
+        
         // urlの固定値
         let urlFixed = "https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404?format=json"
-        
         var fixedTitle:String
-        var fixedGenreId:String
-        
         self.bookData = []
+        
         // タイトルとジャンルの引数チェック
         if title != "" {
             // タイトルが設定されている
