@@ -33,12 +33,13 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
         // チュートリアルの読み込み
         let isOpenTutorial = UserDefaults.standard.bool(forKey: "tutorial_re_open")
         
-        if(isOpenTutorial){
+        // dubug
+//        if(isOpenTutorial){
             let searchTutorialVC = SearchTutorialViewController()
             searchTutorialVC.modalPresentationStyle = .fullScreen
             self.present(searchTutorialVC, animated: true,completion: nil)
             UserDefaults.standard.set(false, forKey: "tutorial_re_open")
-        }
+//        }
         
         // ボタンの装飾
         genreButton.backgroundColor = UIColor(hex: "00bfff") //背景色 00bfff[deepskyblue]

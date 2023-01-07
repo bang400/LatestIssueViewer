@@ -22,7 +22,7 @@ class SearchTutorialViewController: UIViewController {
     // チュートリアル htmlを読み込む
     func loadHTML() {
         guard let path: String = Bundle.main.path(forResource: "SearchTutorial", ofType: "html") else {return}
-        print("path:\(path)")
+//        print("path:\(path)")
         let localHTMLUrl = URL(fileURLWithPath: path, isDirectory: false)
         tutorialWebView.loadFileURL(localHTMLUrl, allowingReadAccessTo: localHTMLUrl)
     }
@@ -35,6 +35,12 @@ class SearchTutorialViewController: UIViewController {
         closeButton.layer.cornerRadius = 30 //角
     }
     
+    // 画像を表示するためにBase64に変換する
+    func changeImageBase64(_ imagePath:String) -> String {
+        return ""
+    }
+
+    // チュートリアル画面を閉じるボタン
     @IBAction func closeButtonAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
