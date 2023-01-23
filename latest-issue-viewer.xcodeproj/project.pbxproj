@@ -15,6 +15,7 @@
 		550726C8295DD423008B91BA /* NotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 550726BA295DD422008B91BA /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		550726D4295DD4A6008B91BA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550726D3295DD4A6008B91BA /* NotificationService.swift */; };
 		550726D8295DD4A6008B91BA /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 550726D1295DD4A6008B91BA /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		552758F3297F435500A46478 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 552758F2297F435400A46478 /* Icon-1024.png */; };
 		554247D9286A08DB002E3091 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554247D8286A08DB002E3091 /* UIColorHex.swift */; };
 		554F9A652934230F000B8349 /* SearchTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9A632934230F000B8349 /* SearchTutorialViewController.swift */; };
 		554F9A662934230F000B8349 /* SearchTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554F9A642934230F000B8349 /* SearchTutorialViewController.xib */; };
@@ -116,6 +117,7 @@
 		550726DD295DD686008B91BA /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
 		55146C882848B9A900AFF028 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "../../../Downloads/realm-swift-10.27.0/13.4/Realm.xcframework"; sourceTree = "<group>"; };
 		55146C892848B9A900AFF028 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = "../../../Downloads/realm-swift-10.27.0/13.4/RealmSwift.xcframework"; sourceTree = "<group>"; };
+		552758F2297F435400A46478 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
 		554247D8286A08DB002E3091 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
 		554F9A632934230F000B8349 /* SearchTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTutorialViewController.swift; sourceTree = "<group>"; };
 		554F9A642934230F000B8349 /* SearchTutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTutorialViewController.xib; sourceTree = "<group>"; };
@@ -233,7 +235,8 @@
 		554F9A5A293412CC000B8349 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				55E73B64293E2BC900E85166 /* img */,
+				552758F2297F435400A46478 /* Icon-1024.png */,
+				55E73B6A293F096900E85166 /* test.png */,
 				55E73B62293A2DEB00E85166 /* SearchTutorial.html */,
 				55E73B60293A2D6D00E85166 /* style.css */,
 			);
@@ -415,14 +418,6 @@
 				556341A02855A02900066FC6 /* GenreAPI.swift */,
 			);
 			path = API;
-			sourceTree = "<group>";
-		};
-		55E73B64293E2BC900E85166 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				55E73B6A293F096900E85166 /* test.png */,
-			);
-			path = img;
 			sourceTree = "<group>";
 		};
 		EB1065F539AAA667CC28B10D /* Pods */ = {
@@ -607,6 +602,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552758F3297F435500A46478 /* Icon-1024.png in Resources */,
 				55E73B61293A2D6E00E85166 /* style.css in Resources */,
 				55E73B6B293F096900E85166 /* test.png in Resources */,
 				5598E820281E740A008351DD /* LaunchScreen.storyboard in Resources */,

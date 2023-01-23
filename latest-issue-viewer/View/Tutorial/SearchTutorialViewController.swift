@@ -21,10 +21,13 @@ class SearchTutorialViewController: UIViewController {
     
     // チュートリアル htmlを読み込む
     func loadHTML() {
+        // htmlとcssのパス
         guard let path: String = Bundle.main.path(forResource: "SearchTutorial", ofType: "html") else {return}
-//        print("path:\(path)")
         let localHTMLUrl = URL(fileURLWithPath: path, isDirectory: false)
-        tutorialWebView.loadFileURL(localHTMLUrl, allowingReadAccessTo: localHTMLUrl)
+        
+        // htmlのパスと同じにしないと画像が表示されない
+        let localResourceUrl = URL(fileURLWithPath: path, isDirectory: true)        
+        tutorialWebView.loadFileURL(localHTMLUrl, allowingReadAccessTo: localResourceUrl)
     }
     
     // チュートリアルを閉じるボタンの装飾
