@@ -126,24 +126,6 @@ class Notification {
                 content.body = "発売日は\(data.salesDate)"
                 // 本の画像を設定
                 // トーストの画像はロードに失敗するとプッシュ通知自体されないため対策する必要あり
-                // 画像表示用のAttachmentを作成します。
-//                if let urlString = data.smallImageUrl {
-//                    // urlを準備
-//                    let url = URL(string: urlString)
-//                    print("Notification:\(url!)")
-//
-//                    do{
-//                        let attachments = try UNNotificationAttachment(identifier: "image", url: url!, options: nil)
-//                        content.attachments = [attachments]
-//                        print("Notification:画像の設定ができました！")
-//                    } catch {
-//                        print("Notification:画像の取得ができませんでした。")
-//                    }
-//                } else {
-//                    // nilの場合は固定画像表示
-//                    //content.attachments = UIImage(named: "dog2")
-//                    print("Notification:画像の設定失敗")
-//                }
                 // 通知音
                 content.sound = UNNotificationSound.default
                 // 直接日時を設定
