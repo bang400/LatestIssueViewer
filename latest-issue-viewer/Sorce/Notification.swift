@@ -131,11 +131,8 @@ class Notification {
                 // 直接日時を設定
 //                let triggerDate = DateComponents(month:06, day:27, hour:15, minute:34, second: 00)
                 let triggerDate = Calendar.current.dateComponents(in: TimeZone.current, from: modifiedDate)
-//                print(triggerDate)
                 let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate, repeats: false)
-//                let trigger = UNTimeIntervalNotificationTrigger(timeInterval:3, repeats: false)
                 let request = UNNotificationRequest(identifier: data.isbn, content: content, trigger: trigger)
-//                let request = UNNotificationRequest(identifier: "test", content: content, trigger: trigger)
                 UNUserNotificationCenter.current().add(request)
             }
         }
@@ -143,8 +140,5 @@ class Notification {
         if self.notificationDataList == nil {
             print("notificationDataListがnilである")
         }
-        //        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3, repeats: false)
-        // 音を変更する
-        //        content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "sound.mp3"))
     }
 }
