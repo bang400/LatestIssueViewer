@@ -57,9 +57,6 @@ class Notification {
                             self.realm.add(notifiItemList)
                             self.notificationDataList = self.realm.objects(FavoriteList.self).first?.notifiList
                         }else{
-//                            print("notificationDataListがnilじゃない")
-                            // フィルターかけたデータ
-//                            print(notificationDataList)
                             // 通知対象リストの中に
 //                            let checkedData = self.realm.objects(FavoriteList.self).filter("isbn == %@", data.isbn)
                             let checkedData = self.realm.objects(FavoriteList.self).first?.notifiList.filter("isbn == %@", data.isbn)
