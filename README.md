@@ -6,6 +6,22 @@ This application manages information on new publications.
 Do you wonder when a new issue of a book you usually read will be released?  
 With this application, you can search for the target book from the search box, register it as a favorite, and it will notify you on your device.
 
+<img src="https://user-images.githubusercontent.com/58414435/215330388-bdb76e36-7b23-410b-ac7f-fd846a8597d9.png" height="10%" width="10%">
+
+### スクリーンショット(Screen shot)
+<table>
+<tr>
+<td><img src="https://user-images.githubusercontent.com/58414435/215330389-095ad6c9-82e4-4d33-93b6-4c7f50b74a26.png"></td>
+<td><img src="https://user-images.githubusercontent.com/58414435/215330391-2c9f527b-6c88-45dc-902c-f20ef99ca8d4.png"></td>
+<td><img src="https://user-images.githubusercontent.com/58414435/215330394-19cdae5f-7df4-4a4a-bef1-72990da5da6b.png"></td>
+<td><img src="https://user-images.githubusercontent.com/58414435/215330397-2096a92b-b802-432c-bd2b-66b92476d7ed.png"></td>
+</tr>
+
+<tr>
+<td><img src="https://user-images.githubusercontent.com/58414435/215330400-97f3cb18-bb2d-4c21-996a-2e3d014ffc10.png"></td>
+</tr>
+</table>
+
 # 使い方(how to app)
 #### 本の検索(Book Search)
 検索ボックスに任意の本の名前、著書名を入力してください。  
