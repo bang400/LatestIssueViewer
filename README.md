@@ -1,6 +1,4 @@
-# Latest Issue Viewer
-
-### アプリ概要(Overview)
+# アプリ概要(Overview)
 本アプリは新刊情報を管理するアプリです。
 普段読んでいる本の新刊がいつ発売されるか気になりませんか？
 本アプリを使えば、検索ボックスから対象の本を検索してお気に入り登録すると端末に通知してくれます。
@@ -8,7 +6,7 @@ This application manages information on new publications.
 Do you wonder when a new issue of a book you usually read will be released?  
 With this application, you can search for the target book from the search box, register it as a favorite, and it will notify you on your device.
 
-### アプリの使い方(how to app)
+# アプリの使い方(how to app)
 #### 本の検索
 検索ボックスに任意の本の名前、著書名を入力してください。  
 ジャンル検索、日付検索も可能です。  
@@ -22,12 +20,15 @@ You can also search by genre or date.
 1. Go to Settings>Latest issue viewer>Notifications
 2. Turn on "Allow notifications
 
-### これからやること
-
-#### release_1.0.1.0の修正（予定)
+# リリースノート
+### v1.1.0.0の修正内容
 <ul>
-<li>スプラッシュ画面を作る 対応済み</li>
-<li>チュートリアルを作成する　　対応中</li>
+<li>スプラッシュ画面を追加</li>
+<li>チュートリアル画面を追加</li>
+</ul>
+
+### 今後のアップデートの内容(予定)
+<ul>
 <li>検索件数の拡張、終端に達したら新たに取得する</li>
 <li>リスト上のデータが見切れているため、修正する</li>
 <li>詳細ページに本の説明を追加する</li>
