@@ -273,16 +273,16 @@ class SearchViewController: UIViewController,UITableViewDelegate,UITableViewData
                     //　開始日チェック
                     if startDate != "" {
                         // 開始日を数値だけにする
-                        var filterStart = startDate.filter("0123456789".contains(_:))
+                        let filterStart = startDate.filter("0123456789".contains(_:))
                         // 指定した開始日(文字型→日付型)
-                        var start = dateFormatter.date(from: filterStart)
+                        let start = dateFormatter.date(from: filterStart)
                         
                         //終了日チェック
                         if periodDate != ""{
                             // 終了日を数値だけにする
-                            var filterPeriod = periodDate.filter("0123456789".contains(_:))
+                            let filterPeriod = periodDate.filter("0123456789".contains(_:))
                             // 指定した終了日(文字型→日付型)
-                            var period = dateFormatter.date(from: filterPeriod)
+                            let period = dateFormatter.date(from: filterPeriod)
                             //print("SVC2:\(self.bookData)")
                             // 開始日 <= データ <= 終了日
                             for item in json.Items{
