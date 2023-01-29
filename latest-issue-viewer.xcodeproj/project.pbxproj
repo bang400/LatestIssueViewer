@@ -16,6 +16,11 @@
 		550726D4295DD4A6008B91BA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550726D3295DD4A6008B91BA /* NotificationService.swift */; };
 		550726D8295DD4A6008B91BA /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 550726D1295DD4A6008B91BA /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		552758F3297F435500A46478 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 552758F2297F435400A46478 /* Icon-1024.png */; };
+		5527590429866D8600A46478 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5527590029866BDB00A46478 /* img1.png */; };
+		5527590529866D8600A46478 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5527590229866BDC00A46478 /* img2.png */; };
+		5527590629866D8600A46478 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 552758FF29866BDB00A46478 /* img3.png */; };
+		5527590729866D8600A46478 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5527590329866BDC00A46478 /* img4.png */; };
+		5527590829866D8600A46478 /* img5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5527590129866BDB00A46478 /* img5.png */; };
 		554247D9286A08DB002E3091 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554247D8286A08DB002E3091 /* UIColorHex.swift */; };
 		554F9A652934230F000B8349 /* SearchTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9A632934230F000B8349 /* SearchTutorialViewController.swift */; };
 		554F9A662934230F000B8349 /* SearchTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554F9A642934230F000B8349 /* SearchTutorialViewController.xib */; };
@@ -48,7 +53,6 @@
 		55D9083A283582C70015586A /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D90839283582C70015586A /* Favorite.swift */; };
 		55E73B61293A2D6E00E85166 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B60293A2D6D00E85166 /* style.css */; };
 		55E73B63293A2DEC00E85166 /* SearchTutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B62293A2DEB00E85166 /* SearchTutorial.html */; };
-		55E73B6B293F096900E85166 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B6A293F096900E85166 /* test.png */; };
 		55E73B6D29532A1200E85166 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55E73B6C29532A1200E85166 /* Settings.bundle */; };
 		883DB863FDCCE5766D620007 /* Pods_latest_issue_viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F142FEA329B9145D94BC64C6 /* Pods_latest_issue_viewer.framework */; };
 		BBE5B9FA6851CE0A23A4A4F6 /* Pods_latest_issue_viewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95152EF86013A1F8B203D949 /* Pods_latest_issue_viewerTests.framework */; };
@@ -118,6 +122,11 @@
 		55146C882848B9A900AFF028 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "../../../Downloads/realm-swift-10.27.0/13.4/Realm.xcframework"; sourceTree = "<group>"; };
 		55146C892848B9A900AFF028 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = "../../../Downloads/realm-swift-10.27.0/13.4/RealmSwift.xcframework"; sourceTree = "<group>"; };
 		552758F2297F435400A46478 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
+		552758FF29866BDB00A46478 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3.png; path = "/Users/bangbang/Documents/ApplicationDevelop/Dev/latest-issue-viewer/latest-issue-viewer/Resource/img3.png"; sourceTree = "<absolute>"; };
+		5527590029866BDB00A46478 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = "/Users/bangbang/Documents/ApplicationDevelop/Dev/latest-issue-viewer/latest-issue-viewer/Resource/img1.png"; sourceTree = "<absolute>"; };
+		5527590129866BDB00A46478 /* img5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5.png; path = "/Users/bangbang/Documents/ApplicationDevelop/Dev/latest-issue-viewer/latest-issue-viewer/Resource/img5.png"; sourceTree = "<absolute>"; };
+		5527590229866BDC00A46478 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2.png; path = "/Users/bangbang/Documents/ApplicationDevelop/Dev/latest-issue-viewer/latest-issue-viewer/Resource/img2.png"; sourceTree = "<absolute>"; };
+		5527590329866BDC00A46478 /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img4.png; path = "/Users/bangbang/Documents/ApplicationDevelop/Dev/latest-issue-viewer/latest-issue-viewer/Resource/img4.png"; sourceTree = "<absolute>"; };
 		554247D8286A08DB002E3091 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
 		554F9A632934230F000B8349 /* SearchTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTutorialViewController.swift; sourceTree = "<group>"; };
 		554F9A642934230F000B8349 /* SearchTutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTutorialViewController.xib; sourceTree = "<group>"; };
@@ -156,7 +165,6 @@
 		55D90839283582C70015586A /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		55E73B60293A2D6D00E85166 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		55E73B62293A2DEB00E85166 /* SearchTutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SearchTutorial.html; sourceTree = "<group>"; };
-		55E73B6A293F096900E85166 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		55E73B6C29532A1200E85166 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		64CC20F3E17EC035FB288C66 /* Pods-latest-issue-viewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewerTests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewerTests/Pods-latest-issue-viewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EEBF503D843E2DC8AC3C3C2 /* Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; path = "Target Support Files/Pods-latest-issue-viewer-latest-issue-viewerUITests/Pods-latest-issue-viewer-latest-issue-viewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,8 +243,12 @@
 		554F9A5A293412CC000B8349 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				5527590029866BDB00A46478 /* img1.png */,
+				5527590229866BDC00A46478 /* img2.png */,
+				552758FF29866BDB00A46478 /* img3.png */,
+				5527590329866BDC00A46478 /* img4.png */,
+				5527590129866BDB00A46478 /* img5.png */,
 				552758F2297F435400A46478 /* Icon-1024.png */,
-				55E73B6A293F096900E85166 /* test.png */,
 				55E73B62293A2DEB00E85166 /* SearchTutorial.html */,
 				55E73B60293A2D6D00E85166 /* style.css */,
 			);
@@ -602,9 +614,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5527590429866D8600A46478 /* img1.png in Resources */,
+				5527590529866D8600A46478 /* img2.png in Resources */,
+				5527590629866D8600A46478 /* img3.png in Resources */,
+				5527590729866D8600A46478 /* img4.png in Resources */,
+				5527590829866D8600A46478 /* img5.png in Resources */,
 				552758F3297F435500A46478 /* Icon-1024.png in Resources */,
 				55E73B61293A2D6E00E85166 /* style.css in Resources */,
-				55E73B6B293F096900E85166 /* test.png in Resources */,
 				5598E820281E740A008351DD /* LaunchScreen.storyboard in Resources */,
 				55D9082228345E8C0015586A /* FavoriteTableViewCell.xib in Resources */,
 				55D9082728345E8C0015586A /* SettingTableViewCell.xib in Resources */,
@@ -855,7 +871,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = NotificationContent/NotificationContent.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
@@ -872,6 +888,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer.NotificationContent";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -884,7 +901,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = NotificationContent/NotificationContent.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
@@ -901,6 +918,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer.NotificationContent";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -913,7 +931,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
@@ -930,6 +948,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer.NotificationService";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -942,7 +961,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
@@ -959,6 +978,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer.NotificationService";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1090,11 +1110,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "latest-issue-viewer/latest-issue-viewer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GCH87WV82X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "latest-issue-viewer/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Latest issue viewer";
@@ -1110,8 +1129,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = ProvisioningProfileLatestIssueViewer;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ProvisioningProfileLatestIssueViewer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1126,11 +1144,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "latest-issue-viewer/latest-issue-viewer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GCH87WV82X;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GCH87WV82X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "latest-issue-viewer/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Latest issue viewer";
@@ -1146,8 +1163,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.mtrad.latest-issue-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = ProvisioningProfileLatestIssueViewer;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ProvisioningProfileLatestIssueViewer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
